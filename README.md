@@ -6,7 +6,7 @@ The calculator performs simple functions like addition, multiplication etc. Chai
 _The calculator app can be previewed <a href="https://shradhakatyal.github.io/Calculator/calc.html">here!</a>_
 
 ## Getting Started
-If you want to use this calculator app, follow the given instructions.
+If you want to use this calculator app on your own machine, follow the given instructions.
 
 ### Prerequisites
 A browser is required to run this app.
@@ -20,7 +20,10 @@ A browser is required to run this app.
 <link rel="stylesheet" type="text/css" href="calc.css">
 ```
 Change the href to include the path of your css file relative to the directory in which calc.html is present.
+For example, if calc.css is present inside css folder in the same directory as calc.html
 ```
-If calc.css is present inside css folder in the same directory as calc.html
 <link rel="stylesheet" type="text/css" href="css\calc.css">
 ```
+
+### Disclaimer
+This is an original project. Any similarity is purely __coincidental__.
