@@ -13,6 +13,23 @@ function reSet(){
 		isOperator=false;
 		numCount=0;
 }
+
+$("#equals").click(function(){
+	globaltemp=$("#screen").text();
+	var expression=$("#screen").text();
+	var result=eval(expression);
+	$("#screen").text(result);
+	$("#smallscreen").text(result);
+	reset=true;
+	numCount=0;
+});
+
+function evalAnswer(){
+	switch(true):
+		case '+':
+			exp = exp + 1;
+}
+
 $(".numbers").click(function(){
 	tmp=$("#screen").text();
 	if(tmp.length>19){
@@ -84,15 +101,6 @@ $("#recentclear").click(function(){
 		}
 		numCount--;
 	}
-});
-$("#equals").click(function(){
-	globaltemp=$("#screen").text();
-	var expression=$("#screen").text();
-	var result=eval(expression);
-	$("#screen").text(result);
-	$("#smallscreen").text(result);
-	reset=true;
-	numCount=0;
 });
 $("#dot").click(function(){
 	tmp=$("#screen").text();
