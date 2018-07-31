@@ -1,15 +1,12 @@
 body{
-	background: #1D976C;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	font-family: 'Roboto', 'sans-serif';
-
 }
 
 h2{
 	text-align: center;
 	text-transform: uppercase;
-	color: #325d81;
+	color: #fff;
+	font-weight: 400;
 }
 
 button{
@@ -18,7 +15,6 @@ button{
 	margin:auto 12.5px;
 	border:none;
 	border-radius: 10px;
-	background-color: #09c;
 	color: white;
 	outline:none;
 }
@@ -29,15 +25,17 @@ footer{
 }
 
 footer span{
-	color: white;
+	color: #d33b3b;
 }
 
 .numbers {
 	font-size: 16px;
+	background-color: #404040;
 }
 
 .operators {
 	font-size: 16px;
+	background-color: #595959;
 }
 
 .row{
@@ -53,7 +51,7 @@ footer span{
 	margin-right:auto;
 	margin-bottom: 50px;
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
-	background-color: #b3c6ff;
+	background-color: #000;
 }
 
 .screen{
@@ -85,10 +83,15 @@ footer span{
 }
 
 .equals{
-	background-color: #00394d;
+	background-color: #808080
 }
 
 .zero{
 	width:149px;
+	background-color: #404040;
+}
+
+.dot {
+	background-color: #404040;
 }
 
