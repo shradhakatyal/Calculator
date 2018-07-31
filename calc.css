@@ -5,11 +5,13 @@ body{
 	font-family: 'Roboto', 'sans-serif';
 
 }
+
 h2{
 	text-align: center;
 	text-transform: uppercase;
 	color: #325d81;
 }
+
 button{
 	width:60px;
 	height:40px;
@@ -20,17 +22,29 @@ button{
 	color: white;
 	outline:none;
 }
+
 footer{
 	text-align: center;
 	font-size: 15px;
 }
+
 footer span{
 	color: white;
 }
+
+.numbers {
+	font-size: 16px;
+}
+
+.operators {
+	font-size: 16px;
+}
+
 .row{
 	margin:5px auto;
 }
-#container{
+
+.container{
 	border:2px solid #f2f2f2;
 	border-radius: 20px;
 	width:360px;
@@ -41,7 +55,8 @@ footer span{
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
 	background-color: #b3c6ff;
 }
-#screen{
+
+.screen{
 	text-align: right;
 	width:100%;
 	padding:10px 10px;
@@ -50,7 +65,8 @@ footer span{
 	box-sizing:border-box;
 	font-size: 30px;
 }
-#smallscreen{
+
+.smallscreen{
 	text-align: right;
 	width:100%;
 	padding:5px 10px;
@@ -59,16 +75,20 @@ footer span{
 	box-sizing:border-box;
 	font-size: 20px;
 }
-#clear{
+
+.clear{
 	background-color: #d33b3b;
 }
-#recentclear{
+
+.recentclear{
 	background-color: #d33b3b;
 }
-#equals{
+
+.equals{
 	background-color: #00394d;
 }
-#zero{
+
+.zero{
 	width:149px;
 }
 
